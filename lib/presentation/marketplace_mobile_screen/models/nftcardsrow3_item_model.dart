@@ -1,0 +1,1 @@
+class Nftcardsrow3ItemModel {}

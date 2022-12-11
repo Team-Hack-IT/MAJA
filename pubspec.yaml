@@ -1,0 +1,101 @@
+name: maja
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^0.22.0
+  dotted_border: 2.0.0+1
+  intl: ^0.17.0
+  url_launcher: 6.0.20
+  permission_handler: ^10.0.0
+  images_picker: ^1.2.11
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/MontserratSemiBold.ttf
+          weight: 600
+    - family: Manrope
+      fonts: 
+        - asset: assets/fonts/ManropeSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/ManropeMedium.ttf
+          weight: 500
+        - asset: assets/fonts/ManropeBold.ttf
+          weight: 700
+    - family: Rubik
+      fonts: 
+        - asset: assets/fonts/RubikMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RubikRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RubikBold.ttf
+          weight: 700
+        - asset: assets/fonts/RubikLight.ttf
+          weight: 300
+        - asset: assets/fonts/RubikRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RubikRomanRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+    - family: Urbanist
+      fonts: 
+        - asset: assets/fonts/UrbanistRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/UrbanistRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/UrbanistRomanRegular.ttf
+          weight: 400
+    - family: Work Sans
+      fonts: 
+        - asset: assets/fonts/WorkSansRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/WorkSansRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/WorkSansSemiBold.ttf
+          weight: 600
+    - family: Space Mono
+      fonts: 
+        - asset: assets/fonts/SpaceMonoBold.ttf
+          weight: 700
+        - asset: assets/fonts/SpaceMonoRegular.ttf
+          weight: 400
+    - family: Slackey
+      fonts: 
+        - asset: assets/fonts/SlackeyRegular.ttf
+          weight: 400
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
